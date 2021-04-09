@@ -4,7 +4,7 @@
  */
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon } from "design-system";
+import { Button, Icon, Avatar } from "design-system";
 
 import avatarImg from "../assets/avatar.png";
 import item1Img from "../assets/item1.png";
