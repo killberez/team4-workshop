@@ -4,7 +4,7 @@
  */
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon, Avatar, Title, ProductItem } from "design-system";
+import { Button, Icon, Avatar, Thumbnail } from "design-system";
 
 import avatarImg from "../assets/avatar.png";
 import item1Img from "../assets/item1.png";
@@ -14,11 +14,6 @@ import item4Img from "../assets/item4.png";
 
 const StyledDiv1 = styled.div`
   padding: 64px 40px;
-`;
-
-const StyledImage = styled.img`
-  width: 48px;
-  height: 48px;
 `;
 
 const Styledh1 = styled.h1`
@@ -85,12 +80,12 @@ const Home = () => {
     <div>
       <StyledDiv1>
         <StyledDiv2>
-          <Avatar src={avatarImg} />
+          <Avatar src={avatarImg}/>
           <Button isOutline>
             <Icon name="menu" />
           </Button>
         </StyledDiv2>
-        <Title>Story</Title>
+        <Styledh1>Store</Styledh1>
 
         <StyledDiv3>
           <h4>All Product</h4>
@@ -109,6 +104,7 @@ const Home = () => {
           </StyledDiv4>
         </StyledDiv3>
         <StyledDiv5>
+<<<<<<< HEAD
           <ProductItem>
             <StyledImg src={item1Img} alt="" />
             <h4>Nike Air Force 1 '07</h4>
@@ -116,16 +112,33 @@ const Home = () => {
           </ProductItem>
           <StyledDiv6>
             <StyledImg src={item2Img} alt="" />
-            <h4>Nike Air Shadow Force</h4>
-            <StyledP>€105.00</StyledP>
-          </StyledDiv6>
+=======
           <StyledDiv6>
-            <StyledImg src={item3Img} alt="" />
+            <Thumbnail src={item1Img} alt="" />
             <h4>Nike Air Force 1 '07</h4>
             <StyledP>€95.00</StyledP>
           </StyledDiv6>
           <StyledDiv6>
+            <Thumbnail src={item2Img} alt="" /> 
+>>>>>>> fb3c46361c5bc38dd68a9ae0b82a056e3199569e
+            <h4>Nike Air Shadow Force</h4>
+            <StyledP>€105.00</StyledP>
+          </StyledDiv6>
+          <StyledDiv6>
+<<<<<<< HEAD
+            <StyledImg src={item3Img} alt="" />
+=======
+            <Thumbnail src={item3Img} alt="" />
+>>>>>>> fb3c46361c5bc38dd68a9ae0b82a056e3199569e
+            <h4>Nike Air Force 1 '07</h4>
+            <StyledP>€95.00</StyledP>
+          </StyledDiv6>
+          <StyledDiv6>
+<<<<<<< HEAD
             <StyledImg src={item4Img} alt="" />
+=======
+            <Thumbnail src={item4Img} alt="" />
+>>>>>>> fb3c46361c5bc38dd68a9ae0b82a056e3199569e
             <h4>Nike Air Force 1 '07</h4>
             <StyledP>€95.00</StyledP>
           </StyledDiv6>

@@ -1,7 +1,8 @@
-
-import { Meta, Canvas, Story } from '@storybook/addon-docs/blocks';
+import { ArgsTable, Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
 
 import Avatar from ".";
+
+import avatarImg from "../../../../product/src/assets/avatar.png";
 
 <Meta title="Components/Avatar" />
 
@@ -10,7 +11,11 @@ import Avatar from ".";
 TODO: add component description
 
 <Canvas>
-  <Story name="Default">
-    <Avatar/>
-  </Story>
+    <Story name="Default">
+        <Avatar src={avatarImg} />
+    </Story>
 </Canvas>
+
+## Props
+
+<ArgsTable of={Avatar} />

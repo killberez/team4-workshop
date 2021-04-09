@@ -6,13 +6,14 @@ import styled from "styled-components";
  *
  * TODO: add component description
  */
-const Thumbnail = ({src, alt, ...props}) => {
-  return <StyledThumbnail src={src} alt={alt} />
+const Thumbnail = ({src, alt, size, ...props}) => {
+  return <StyledThumbnail size={size} src={src} alt={alt} />
 };
 
 export const StyledThumbnail = styled.img`
-  max-width: 100%;
-  margin-bottom: 16px;
+  width: ${(p) => (p.size == "s" ? "48px" : "136px")};
+  height: ${(p) => (p.size == "s" ? "48px" : "136px")};
+  display: block;
 `;
 
 Thumbnail.propTypes = {
