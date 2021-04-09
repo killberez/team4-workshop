@@ -109,14 +109,26 @@ const Home = () => {
           </StyledDiv4>
         </StyledDiv3>
         <StyledDiv5>
-          {productsList.map((item) => {
-            <ProductItem
-              thumbSrc={item.thumbSrc}
-              thumbAlt={item.thumbAlt}
-              title={item.title}
-              price={item.price}
-            />;
-          })}
+          <ProductItem>
+            <StyledImg src={item1Img} alt="" />
+            <h4>Nike Air Force 1 '07</h4>
+            <StyledP>€95.00</StyledP>
+          </ProductItem>
+          <StyledDiv6>
+            <StyledImg src={item2Img} alt="" />
+            <h4>Nike Air Shadow Force</h4>
+            <StyledP>€105.00</StyledP>
+          </StyledDiv6>
+          <StyledDiv6>
+            <StyledImg src={item3Img} alt="" />
+            <h4>Nike Air Force 1 '07</h4>
+            <StyledP>€95.00</StyledP>
+          </StyledDiv6>
+          <StyledDiv6>
+            <StyledImg src={item4Img} alt="" />
+            <h4>Nike Air Force 1 '07</h4>
+            <StyledP>€95.00</StyledP>
+          </StyledDiv6>
         </StyledDiv5>
       </StyledDiv1>
     </div>

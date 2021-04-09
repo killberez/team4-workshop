@@ -3,64 +3,64 @@
     "orange": {
       "100%": {
         "category": "fill",
-        "value": "rgba(241, 82, 35, 1)",
+        "value": "rgba(23, 189, 189, 1)",
         "type": "color"
       },
       "80%": {
         "category": "fill",
-        "value": "rgba(244, 117, 79, 1)",
+        "value": "rgba(111, 214, 214, 1)",
         "type": "color"
       },
       "60%": {
         "category": "fill",
-        "value": "rgba(247, 151, 123, 1)",
+        "value": "rgba(133, 214, 214, 1)",
         "type": "color"
       },
       "40%": {
         "category": "fill",
-        "value": "rgba(249, 186, 167, 1)",
+        "value": "rgba(173, 240, 240, 1)",
         "type": "color"
       },
       "20%": {
         "category": "fill",
-        "value": "rgba(252, 220, 211, 1)",
+        "value": "rgba(197, 240, 240, 1)",
         "type": "color"
       },
       "10%": {
         "category": "fill",
-        "value": "rgba(254, 237, 233, 1)",
+        "value": "rgba(221, 240, 240, 1)",
         "type": "color"
       }
     },
     "purple": {
       "100%": {
         "category": "fill",
-        "value": "rgba(80, 65, 171, 1)",
+        "value": "rgba(175, 99, 163, 1)",
         "type": "color"
       },
       "80%": {
         "category": "fill",
-        "value": "rgba(115, 103, 188, 1)",
+        "value": "rgba(175, 99, 163, 0.8)",
         "type": "color"
       },
       "60%": {
         "category": "fill",
-        "value": "rgba(150, 141, 205, 1)",
+        "value": "rgba(175, 99, 163, 0.6)",
         "type": "color"
       },
       "40%": {
         "category": "fill",
-        "value": "rgba(185, 179, 221, 1)",
+        "value": "rgba(175, 99, 163, 0.4)",
         "type": "color"
       },
       "20%": {
         "category": "fill",
-        "value": "rgba(220, 217, 238, 1)",
+        "value": "rgba(175, 99, 163, 0.2)",
         "type": "color"
       },
       "10%": {
         "category": "fill",
-        "value": "rgba(237, 236, 246, 1)",
+        "value": "rgba(175, 99, 163, 0.1)",
         "type": "color"
       }
     }
@@ -69,7 +69,7 @@
     "black": {
       "100%": {
         "category": "fill",
-        "value": "rgba(4, 4, 21, 1)",
+        "value": "rgba(18, 18, 49, 1)",
         "type": "color"
       },
       "80%": {
@@ -101,32 +101,32 @@
     "yellow": {
       "100%": {
         "category": "fill",
-        "value": "rgba(255, 170, 27, 1)",
+        "value": "rgba(248, 215, 63, 1)",
         "type": "color"
       },
       "80%": {
         "category": "fill",
-        "value": "rgba(255, 170, 27, 0.8)",
+        "value": "rgba(248, 215, 63, 0.8)",
         "type": "color"
       },
       "60%": {
         "category": "fill",
-        "value": "rgba(255, 170, 27, 0.6)",
+        "value": "rgba(248, 215, 63, 0.6)",
         "type": "color"
       },
       "40%": {
         "category": "fill",
-        "value": "rgba(255, 170, 27, 0.4)",
+        "value": "rgba(248, 215, 63, 0.4)",
         "type": "color"
       },
       "20%": {
         "category": "fill",
-        "value": "rgba(255, 170, 27, 0.2)",
+        "value": "rgba(248, 215, 63, 0.2)",
         "type": "color"
       },
       "10%": {
         "category": "fill",
-        "value": "rgba(255, 170, 27, 0.1)",
+        "value": "rgba(248, 215, 63, 0.1)",
         "type": "color"
       }
     },
@@ -290,7 +290,7 @@
     "category": "font",
     "fontSize": { "value": 36, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 700, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -305,7 +305,7 @@
     "category": "font",
     "fontSize": { "value": 24, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 700, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -320,7 +320,7 @@
     "category": "font",
     "fontSize": { "value": 22, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 700, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -335,7 +335,7 @@
     "category": "font",
     "fontSize": { "value": 18, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 700, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -350,7 +350,7 @@
     "category": "font",
     "fontSize": { "value": 16, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 700, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -365,7 +365,7 @@
     "category": "font",
     "fontSize": { "value": 14, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 700, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -380,7 +380,7 @@
     "category": "font",
     "fontSize": { "value": 18, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 400, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -395,7 +395,7 @@
     "category": "font",
     "fontSize": { "value": 16, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 400, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
@@ -410,7 +410,7 @@
     "category": "font",
     "fontSize": { "value": 14, "type": "number", "unit": "pixel" },
     "textDecoration": { "value": "none", "type": "string" },
-    "fontFamily": { "value": "DM Sans", "type": "string" },
+    "fontFamily": { "value": "Domine", "type": "string" },
     "fontWeight": { "value": 400, "type": "number" },
     "fontStyle": { "value": "normal", "type": "string" },
     "fontStretch": { "value": "normal", "type": "string" },
