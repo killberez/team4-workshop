@@ -11,4 +11,5 @@ export { default as Avatar } from "./components/Avatar";
 export { default as Button } from "./components/Button";
 export { default as Icon } from "./components/Icon";
 export { default as ProductItem } from "./components/ProductItem";
+export { default as Thumbnail } from "./components/Thumbnail";
 export { default as Title } from "./components/Title";
