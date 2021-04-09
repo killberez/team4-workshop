@@ -4,7 +4,7 @@
  */
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon } from "design-system";
+import { Button, Icon, Avatar, Thumbnail } from "design-system";
 
 import avatarImg from "../assets/avatar.png";
 import item1Img from "../assets/item1.png";
@@ -95,7 +95,7 @@ const Cart = () => {
     <div>
       <StyledDiv1>
         <StyledDiv2>
-          <StyledImage src={avatarImg} />
+          <Avatar src={avatarImg}/>
           <Button isOutline>
             <Icon name="menu" />
           </Button>
@@ -103,7 +103,7 @@ const Cart = () => {
         <Styledh1>Shopping Cart</Styledh1>
 
         <StyledDiv3>
-          <StyledImg src={item1Img} alt="" />
+          <Thumbnail size="s" src={item1Img} alt="" />     
           <StyledDiv4>
             <Styledh6>Nike Air Force 1 '07</Styledh6>
             <Styledh62>€95.00</Styledh62>
