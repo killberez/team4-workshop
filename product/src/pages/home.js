@@ -4,7 +4,7 @@
  */
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon, Avatar } from "design-system";
+import { Button, Icon, Avatar, Title } from "design-system";
 
 import avatarImg from "../assets/avatar.png";
 import item1Img from "../assets/item1.png";
@@ -90,7 +90,7 @@ const Home = () => {
             <Icon name="menu" />
           </Button>
         </StyledDiv2>
-        <Styledh1>Store</Styledh1>
+        <Title>Story</Title>
 
         <StyledDiv3>
           <h4>All Product</h4>
