@@ -2,18 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { string } from "prop-types";
 
-/* Avatar
- *
- * TODO: add component description
+/*
+ * Avatar component
  */
-
 const Avatar = (props) => {
-  console.log(props);
-  return <StyledAvatar src={props.avaimg} />;
+  return <StyledAvatar {...props} />;
 };
 
 Avatar.propTypes = {
-  avaimg: any,
+  src: string,
 };
 
 export const StyledAvatar = styled.img`
