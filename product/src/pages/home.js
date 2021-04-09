@@ -85,7 +85,8 @@ const Home = () => {
     <div>
       <StyledDiv1>
         <StyledDiv2>
-          <StyledImage src={avatarImg} />
+          {/* <StyledImage src={avatarImg} /> */}
+          <Avatar avaimg={avatarImg} />
           <Button isOutline>
             <Icon name="menu" />
           </Button>

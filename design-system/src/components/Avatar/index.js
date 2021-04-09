@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import avatarImg from "../../../../product/src/assets/avatar.png";
+import { string } from "prop-types";
 
 /* Avatar
  *
@@ -8,7 +8,12 @@ import avatarImg from "../../../../product/src/assets/avatar.png";
  */
 
 const Avatar = (props) => {
-  return <StyledAvatar src={avatarImg} />;
+  console.log(props);
+  return <StyledAvatar src={props.avaimg} />;
+};
+
+Avatar.propTypes = {
+  avaimg: any,
 };
 
 export const StyledAvatar = styled.img`
