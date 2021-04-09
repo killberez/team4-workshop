@@ -4,7 +4,7 @@
  */
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon, Avatar, Title. ProductItem } from "design-system";
+import { Button, Icon, Avatar, Title, ProductItem } from "design-system";
 
 import avatarImg from "../assets/avatar.png";
 import item1Img from "../assets/item1.png";
@@ -109,26 +109,14 @@ const Home = () => {
           </StyledDiv4>
         </StyledDiv3>
         <StyledDiv5>
-          <StyledDiv6>
-            <StyledImg src={item1Img} alt="" />
-            <h4>Nike Air Force 1 '07</h4>
-            <StyledP>€95.00</StyledP>
-          </StyledDiv6>
-          <StyledDiv6>
-            <StyledImg src={item2Img} alt="" />
-            <h4>Nike Air Shadow Force</h4>
-            <StyledP>€105.00</StyledP>
-          </StyledDiv6>
-          <StyledDiv6>
-            <StyledImg src={item3Img} alt="" />
-            <h4>Nike Air Force 1 '07</h4>
-            <StyledP>€95.00</StyledP>
-          </StyledDiv6>
-          <StyledDiv6>
-            <StyledImg src={item4Img} alt="" />
-            <h4>Nike Air Force 1 '07</h4>
-            <StyledP>€95.00</StyledP>
-          </StyledDiv6>
+          {productsList.map((item) => {
+            <ProductItem
+              thumbSrc={item.thumbSrc}
+              thumbAlt={item.thumbAlt}
+              title={item.title}
+              price={item.price}
+            />;
+          })}
         </StyledDiv5>
       </StyledDiv1>
     </div>
